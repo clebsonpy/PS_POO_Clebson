@@ -1,4 +1,5 @@
 from pessoa import Pessoa, Aluno, Professor, Administrador, Pesquisador
+from cadastro import Cadastro
 
 if __name__ == "__main__":
 
@@ -7,4 +8,5 @@ if __name__ == "__main__":
     admin = Administrador("Clara", "clarapy", "clara@algo.com")
     pesq = Pesquisador("Gabriel", "gabigol", "gabigol@algo.com")
 
-    print(admin)
+    cad = Cadastro("Clebson Carvalho", "clebsonpy", "Clebson@algo.com")
+    print(cad.cadastro("Clebson"))

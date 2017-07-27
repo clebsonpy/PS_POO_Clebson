@@ -9,12 +9,16 @@ class Cadastro():
 
     @overload
     def cadastro(self):
+        print("Aqui P")
 
-    @cadastro.overload
+    @overload.cadastro
     def cadastro(self, matricula):
+        print('Aqui')
 
-    @cadastro.overload
+    @overload.cadastro
     def cadastro(self, matricula, grau):
+        print("Aqui1")
+
 
     def save(self):
         self.__class__.seq += 1
