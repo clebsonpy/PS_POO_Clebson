@@ -1,5 +1,4 @@
 from typing import overload
-
 class Cadastro():
 
     def __init__(self, nome, usuario, email):
@@ -11,11 +10,11 @@ class Cadastro():
     def cadastro(self):
         print("Aqui P")
 
-    @overload.cadastro
+    @overload
     def cadastro(self, matricula):
         print('Aqui')
 
-    @overload.cadastro
+    @overload
     def cadastro(self, matricula, grau):
         print("Aqui1")
 

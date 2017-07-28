@@ -9,4 +9,4 @@ if __name__ == "__main__":
     pesq = Pesquisador("Gabriel", "gabigol", "gabigol@algo.com")
 
     cad = Cadastro("Clebson Carvalho", "clebsonpy", "Clebson@algo.com")
-    print(cad.cadastro("Clebson"))
+    print(cad.cadastro())
